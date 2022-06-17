@@ -5,10 +5,9 @@ def fizzbuzz(num):
 いずれの倍数でもない場合は受け取った数値をそのまま返す。
 """
 if num % 3 == 0 and num % 5 == 0:
-  return 'FizzBuzz'
+return 'FizzBuzz'
 if num % 3 == 0:
-  return 'Fizz'
+return 'Fizz'
 if num % 5 == 0:
-  return 'Buzz'
-else:
-  return 'Fuck'
+return 'Buzz'
+return num
